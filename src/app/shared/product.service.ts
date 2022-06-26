@@ -13,7 +13,7 @@ export class ProductService {
   getProducts() {
     this.products = [
       {
-        id: 0,
+        id: 1,
         title: 'First Product',
         price: 24.99,
         rating: 4.3,
@@ -24,13 +24,21 @@ export class ProductService {
       },
 
       {
-        id: 1,
+        id: 2,
         title: 'Second Product',
         price: 64.99,
         rating: 3.5,
         description: 'Product No. 1, a product 1 is a product to be used for book readers',
         categories: ['books']
       },
+      {
+        id: 3,
+        title: 'Third Product',
+        price: 21.99,
+        rating: 3.5,
+        description: 'Product No.3, a product 3 is a product to be used for food consumers',
+        categories: ['books']
+      }
     ];
 
     return this.products;
