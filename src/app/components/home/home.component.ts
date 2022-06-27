@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Product} from "../../entities/product";
-import {ProductService} from "../../shared/product.service";
+import {Product, ProductService} from "../../shared/product.service";
 
 @Component({
   selector: 'nga-home',
