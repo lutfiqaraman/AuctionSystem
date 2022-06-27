@@ -1,1 +1,20 @@
-<p>product-detail works!</p>
+<div class="row">
+  <div class="col-12">
+
+    <div class="m-3">
+      <img src="http://placehold.jp/320x150.png" class="card-img-top" alt="product image">
+    </div>
+
+    <div class="m-3">
+      <p>{{ product.title }}</p>
+      <p>{{ product.description }}</p>
+      <p>{{ product.price | currency }}</p>
+
+      <div class="ratings">
+        <nga-stars [rating]="product.rating"></nga-stars>
+      </div>
+    </div>
+
+  </div>
+</div>
+
