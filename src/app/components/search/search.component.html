@@ -1,23 +1,25 @@
-<form name="searchForm">
+<div class="mt-3 p-1">
+  <form #find=ngForm>
 
-  <div class="mt-1 mb-3">
-    <label for="productTitle" class="form-label">Product title:</label>
-    <input type="text" class="form-control" id="productTitle" aria-describedby="productTitle" placeholder="title">
-  </div>
+    <mat-form-field>
+      <input matInput type="text" placeholder="Product title" name="title" ngModel>
+    </mat-form-field>
 
-  <div class="mb-3">
-    <label for="productPrice" class="form-label">Product price:</label>
-    <input id="productPrice" name="productPrice" type="number" min="0" placeholder="Price" class="form-control">
-  </div>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Product price" name="price" ngModel>
+    </mat-form-field>
 
-  <div class="mb-3">
-    <label for="productCategory" class="form-label">Product category:</label>
-    <select id="productCategory" class="form-control"></select>
-  </div>
+    <mat-form-field>
+      <mat-select placeholder="Category" name="category" ngModel>
+      </mat-select>
+    </mat-form-field>
 
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary btn-block">Search</button>
-  </div>
+    <button mat-raised-button color="accent" type="submit">
+      <mat-icon>search</mat-icon> SEARCH
+    </button>
+  </form>
+</div>
 
-</form>
+
+
 

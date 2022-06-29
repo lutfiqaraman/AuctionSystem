@@ -28,7 +28,7 @@ const products = [
     title: 'First Product',
     price: 24.99,
     rating: 4.3,
-    description: 'Product No. 1, a product 1 is a product to be used by hardware lovers',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
     categories: [
       'electronics', 'hardware'
     ]
@@ -38,7 +38,7 @@ const products = [
     title: 'Second Product',
     price: 64.99,
     rating: 3.5,
-    description: 'Product No. 2, a product 2 is a product to be used by book readers',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
     categories: ['books']
   },
   {
@@ -46,7 +46,31 @@ const products = [
     title: 'Third Product',
     price: 21.99,
     rating: 3.5,
-    description: 'Product No.3, a product 3 is a product to be used by food consumers',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
+    categories: ['books']
+  },
+  {
+    id: 4,
+    title: 'Fourth Product',
+    price: 46.23,
+    rating: 2.65,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
+    categories: ['books']
+  },
+  {
+    id: 5,
+    title: 'Fifth Product',
+    price: 25.37,
+    rating: 1.5,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
+    categories: ['books']
+  },
+  {
+    id: 6,
+    title: 'Sixth Product',
+    price: 21.99,
+    rating: 3.5,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.',
     categories: ['books']
   }
 ];

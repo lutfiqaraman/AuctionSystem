@@ -1,18 +1,17 @@
-<div class="card" style="width: 16rem;">
+<mat-card>
+  <mat-card-title>{{ product.title }}</mat-card-title>
 
-  <img src="http://placehold.jp/320x150.png" class="card-img-top" alt="product image">
+  <img mat-card-image src="http://placehold.jp/320x150.png" alt="product image">
 
-  <div class="card-body">
-    <h4>{{ product.price | currency }}</h4>
-    <h5 class="card-title">{{ product.title }}</h5>
-    <p class="card-text">{{ product.description }}</p>
+  <mat-card-content>
+    {{ product.description }}
+  </mat-card-content>
 
-    <div class="ratings">
-      <nga-stars [rating]="product.rating"></nga-stars>
-    </div>
+  <mat-card-actions>
+    <a mat-button color="accent" [routerLink]="['/products', product.id]">VIEW</a>
+  </mat-card-actions>
 
-  </div>
+</mat-card>
 
-  <div></div>
 
-</div>
+
